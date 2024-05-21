@@ -43,8 +43,9 @@ const Navbar = () => {
       <div className="row justify-content-between">
         <div className="col-md-2 col-3">
           <div className="first-box">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-auto d-flex align-items-center">
+            <div className="row ">
+              <div className="left">
+              <div className="col-auto d-flex ">
                 <Button
                   variant="link"
                   className={`navbar__hamburger ${
@@ -71,15 +72,16 @@ const Navbar = () => {
                     style={{ display: "flex" }}
                   >
                     <i
-                      style={{ fontSize: "25px", marginTop: "5px" }}
+                      style={{ fontSize: "20px",  }}
                       className="bi bi-search"
                     ></i>
                     <div className="ms-4" style={{ width: "auto" }}></div>
-                    <p className="search__text d-none d-md-inline">Search</p>
+                    <p className="search__text">Search</p>
                   </Link>
                 </div>
               </div>
 
+              </div>
               {/* mobile view */}
               <div className="col-auto d-md-none">
                 <div
@@ -115,7 +117,7 @@ const Navbar = () => {
               href="tel:+1234567890"
               className="call-us-link d-none d-md-inline ms-2"
             >
-              <p className="navbar__text mt-3">Call Us</p>
+              <p className="navbar__text ">Call Us</p>
             </a>
             <a href="#" className="call-us-link">
               <i className="bi bi-person"></i>
