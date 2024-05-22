@@ -3,104 +3,121 @@ import "./Home.css";
 import HomeVideo from "../../Assets/Images/home-video.mp4";
 import MenCloths from "../../Assets/Images/men-cloths.mp4";
 import ThirdVideo from "../../Assets/Images/third-video.mp4";
-import imageSrc from './../../Assets/Images/magazine-1.webp';
+import Banner1 from './../../Assets/Images/Banner/Banner 1.png';
+import Banner2 from './../../Assets/Images/Banner/Banner 2.png';
+import Banner3 from './../../Assets/Images/Banner/Banner 3.png';
 import Poster from "../../Assets/Images/poster.png";
-import LB from "../../Assets/Images/lb.png";
-import Person from "../../Assets/Images/person.png";
-import Women from "../../Assets/Images/women.png";
-import Men from "../../Assets/Images/men.png";
+import C1P1 from "../../Assets/Images/Product Image/Product Section1-1.png";
+import C1P2 from "../../Assets/Images/Product Image/Product Section1-2.png";
+import C1P3 from "../../Assets/Images/Product Image/Product Section1-3.png";
+import C1P4 from "../../Assets/Images/Product Image/Product Section1-4.png";
+import C1P5 from "../../Assets/Images/Product Image/Product Section1-5.png";
+import C1P6 from "../../Assets/Images/Product Image/Product Section1-6.png";
+import C1P7 from "../../Assets/Images/Product Image/Product Section1-7.png";
+import C1P8 from "../../Assets/Images/Product Image/Product Section1-8.png";
+import C4P1 from "../../Assets/Images/Last Section Images/Last Section Image 1.png";
+import C4P2 from "../../Assets/Images/Last Section Images/Last Section Image 2.png";
+import C4P3 from "../../Assets/Images/Last Section Images/Last Section Image 3.png";
+import C3P1 from "../../Assets/Images/Product Image/Product Section3-1.png";
+import C3P2 from "../../Assets/Images/Product Image/Product Section3-2.png";
+import C3P3 from "../../Assets/Images/Product Image/Product Section3-3.png";
+import C3P4 from "../../Assets/Images/Product Image/Product Section3-4.png";
+import C2P1 from "../../Assets/Images/Product Image/Product Section2-1.png";
+import C2P2 from "../../Assets/Images/Product Image/Product Section2-2.png";
+import C2P3 from "../../Assets/Images/Product Image/Product Section2-3.png";
+import C2P4 from "../../Assets/Images/Product Image/Product Section2-4.png";
 import VideoPlayer from "../Home/Video";
 import Navbar from "../NavBar/NavBar";
 import Footer from "../Footer/footer";
 
 const cardData = [
   {
-    imgSrc: LB,
+    imgSrc: C1P1,
     title: "Women",
     link: "#",
   },
   {
-    imgSrc:LB,
+    imgSrc:C1P2,
     title: "Men",
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc: C1P3,
     title: "Unisex",
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc: C1P4,
     title: "View more",
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc: C1P5,
     title: "View more",
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc: C1P6,
     title: "View more",
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc: C1P7,
     title: "View more",
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc: C1P8,
     title: "View more",
     link: "#",
   },
 ];
 const men = [
   {
-    imgSrc: Men,
+    imgSrc: C2P1,
     title: "Women",
     amount: "Rs. 3000",
     link: "#",
   },
   {
-    imgSrc: Men,
+    imgSrc: C2P2,
     title: "Men",
     amount: "Rs. 3000",
     link: "#",
   },
   {
-    imgSrc: Men,
+    imgSrc: C2P3,
     title: "Unisex",
     amount: "Rs. 3000",
     link: "#",
   },
   {
-    imgSrc: Men,
+    imgSrc: C2P4,
     title: "View more",
     link: "#",
   },
 ];
 const athleisur = [
   {
-    imgSrc: Women,
+    imgSrc: C3P1,
     title: "Women",
     amount: "Rs. 3000",
     link: "#",
   },
   {
-    imgSrc: Women,
+    imgSrc: C3P2,
     title: "Men",
     amount: "Rs. 3000",
     link: "#",
   },
   {
-    imgSrc: Women,
+    imgSrc: C3P3,
     title: "Unisex",
     amount: "Rs. 3000",
     link: "#",
   },
   {
-    imgSrc: Women,
+    imgSrc: C3P4,
     title: "View more",
     link: "#",
   },
@@ -108,17 +125,17 @@ const athleisur = [
 
 const trendsetters = [
   {
-    imgSrc: Person,
+    imgSrc: C4P1,
     title: "Women",
     link: "#",
   },
   {
-    imgSrc: Person,
+    imgSrc: C4P2,
     title: "Men",
     link: "#",
   },
   {
-    imgSrc: Person,
+    imgSrc: C4P3,
     title: "Unisex",
     link: "#",
   },
@@ -165,7 +182,7 @@ const Home = () => {
           Your browser does not support the video tag.
         </video> */}
         <div>
-      <img className="temp-image" src={imageSrc} alt="Avant Divine" />
+      <img className="temp-image" src={Banner1} alt="Avant Divine" />
     </div>
         <div className="text-overlay d-none d-md-inline">
           <h3> Avant Divine Couture</h3>
@@ -222,9 +239,9 @@ const Home = () => {
           </a>
         </div>
         {/* <VideoPlayer videoSrc={MenCloths} />; */}
-        <div className="">
-          <img className="temp-image"  src="https://media.gettyimages.com/id/515036734/photo/patna-bihar-state-india-finally-the-rains-indian-women-plant-rice-seedlings-in-a-flooded-bihar.jpg?s=612x612&w=gi&k=20&c=UzjqIKNDyrk-3OZXGOycg9Hg3yaXjh9nzz7QR3A6LaU=" />
-        </div>
+        <div>
+      <img className="temp-image" src={Banner2} alt="Avant Divine" />
+    </div>
         <div className="mt-lg-5 mt-3 trendsetters-box">
           <div className="row">
             {men.map((card, index) => (
@@ -269,12 +286,9 @@ const Home = () => {
         </a>
       </div>
       {/* <VideoPlayer videoSrc={ThirdVideo} />; */}
-      <div className="">
-        <img
-          className="temp-image"
-          src="https://media.gettyimages.com/id/515036734/photo/patna-bihar-state-india-finally-the-rains-indian-women-plant-rice-seedlings-in-a-flooded-bihar.jpg?s=612x612&w=gi&k=20&c=UzjqIKNDyrk-3OZXGOycg9Hg3yaXjh9nzz7QR3A6LaU="
-        />
-      </div>
+      <div>
+      <img className="temp-image" src={Banner3} alt="Avant Divine" />
+    </div>
 
       <div className="mt-lg-5 mt-3 trendsetters-box">
           <div className="row">
