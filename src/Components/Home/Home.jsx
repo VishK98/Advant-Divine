@@ -191,8 +191,8 @@ const Home = () => {
           </h5>
         </div>
       </div>
-      <div>
-        <h1 className="mt-lg-5 mt-3 text-center exclusive-text"> Discover The Modern Class</h1>
+      <div className="top-header-content">
+        <h1 className="text-center bold--text"> Discover The Modern Class</h1>
         {/* <div className="p-lg-5">
           <div className="row">
             {cardData.map((card, index) => (
@@ -232,9 +232,9 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className="text-center">
+        <div className="text-center-discover">
           <h1 className="bold--text">Bold Statement</h1>
-          <a className="discover-more" href="">
+          <a className=" discover-more" href="">
             Discover More
           </a>
         </div>
@@ -279,7 +279,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center-discover">
         <h1 className="bold--text">Athleisure Vibes</h1>
         <a className="discover-more" href="">
           Discover More
@@ -332,7 +332,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mb-5">
+      <div className="text-center-discover mb-5">
         <a className="discover-more" href="">
           Discover More
         </a>
