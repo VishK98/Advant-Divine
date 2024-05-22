@@ -114,3 +114,23 @@ body {
     font-size: 18px;
   }
   
+  @media only screen and (max-width: 767px) and (orientation: portrait) {
+    .navbar__text {
+      font-size: 10px;
+    }
+    .bi-search::before {
+      content: "\f52a";
+      margin-left: 17px;
+  }
+  .logo__image {
+    height: 30px;
+  }
+  .align-items-center {
+    margin-right: 1px;
+    align-items: center !important;
+  }
+  .call-us-link .bi {
+    font-size: 22px;
+  }
+
+  }
