@@ -3,6 +3,7 @@ import "./Home.css";
 import HomeVideo from "../../Assets/Images/home-video.mp4";
 import MenCloths from "../../Assets/Images/men-cloths.mp4";
 import ThirdVideo from "../../Assets/Images/third-video.mp4";
+import imageSrc from './../../Assets/Images/magazine-1.webp';
 import Poster from "../../Assets/Images/poster.png";
 import LB from "../../Assets/Images/lb.png";
 import Person from "../../Assets/Images/person.png";
@@ -19,7 +20,7 @@ const cardData = [
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc:LB,
     title: "Men",
     link: "#",
   },
@@ -159,10 +160,13 @@ const Home = () => {
         </form>
       </div>
       <div className="home-container">
-        <video className="home-video" autoPlay loop muted>
+        {/* <video className="home-video" autoPlay loop muted>
           <source src={HomeVideo} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <div>
+      <img className="temp-image" src={imageSrc} alt="Avant Divine" />
+    </div>
         <div className="text-overlay d-none d-md-inline">
           <h3> Avant Divine Couture</h3>
           <h5 style={{ textDecoration: "underline" }}>
