@@ -233,7 +233,7 @@ const Home = () => {
       </div>
       <div>
         <div className="text-center">
-          <h1 className="exclusive-text">Bold Statement</h1>
+          <h1 className="bold--text">Bold Statement</h1>
           <a className="discover-more" href="">
             Discover More
           </a>
@@ -268,7 +268,7 @@ const Home = () => {
           </div>
           <div className="col-md-6 col-12">
             <div className="poster-text">
-              <h2 className="text-center">
+              <h2 className="text-center bold--text">
                 INSPIRED BY THE VIBRANT WORLD OF STREET ART
               </h2>
               <h6 className="text-center"> For The Modern Urbane On The Go</h6>
@@ -280,7 +280,7 @@ const Home = () => {
         </div>
       </div>
       <div className="text-center">
-        <h1>Athleisure Vibes</h1>
+        <h1 className="bold--text">Athleisure Vibes</h1>
         <a className="discover-more" href="">
           Discover More
         </a>
@@ -309,7 +309,7 @@ const Home = () => {
           </div>
         </div>
       <div>
-        <h2 className="text-center">Exclusive Limited Edition Drops</h2>
+        <h2 className="text-center bold--text">Exclusive Limited Edition Drops</h2>
         <h6 className="text-center">
           {" "}
           A Must Have For Colectors & Trendsetters Alike
