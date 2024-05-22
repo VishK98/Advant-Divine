@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="nav__bar p-lg-4">
+    <div className="nav__bar p-lg-2">
       <div className="row justify-content-between align-items-center">
         <div className="col-md-2 col-3">
           <div className="first-box d-flex align-items-center">

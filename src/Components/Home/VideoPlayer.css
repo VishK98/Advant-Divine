@@ -21,6 +21,10 @@
     fill: white;
 }
 
+.top-header-content {
+    margin-top: 6%;
+}
+
 .big-play-button:hover {
     opacity: 0.8;
 }
