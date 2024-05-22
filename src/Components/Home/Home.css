@@ -150,6 +150,10 @@
   font-style: normal;
 }
 
+.bold--text {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: bold;
+}
 
 @media (max-width: 768px) {
   .home-container {
