@@ -143,6 +143,13 @@
   align-items: center;
   height: 100%;
 }
+.exclusive-text {
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 
 @media (max-width: 768px) {
   .home-container {
