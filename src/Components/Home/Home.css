@@ -1,3 +1,13 @@
+@font-face {
+  font-family:LouisVuitton-Medium ;
+  src: url(./../../Font/LouisVuitton-Medium.woff2);
+}
+
+@font-face {
+  font-family:LouisVuitton-Regular ;
+  src: url(./../../Font/LouisVuitton-Regular.woff2);
+}
+
 .home-container {
   position: relative;
   width: 100%;
@@ -14,6 +24,7 @@
 
 .text-overlay {
   position: absolute;
+  font-family: "LouisVuitton-Medium", sans-serif;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
@@ -23,6 +34,7 @@
 
 .card-title {
   text-align: center;
+  font-family: "LouisVuitton-Medium", sans-serif;
   padding: 18px;
   font-size: 14px;
   color: #000;
@@ -44,6 +56,7 @@
 
 .discover-more {
   font-size: 20px;
+  font-family: "LouisVuitton-Medium", sans-serif;
   color: black;
   text-decoration: none;
   position: relative;
@@ -144,14 +157,14 @@
   height: 100%;
 }
 .exclusive-text {
-  font-family: "Red Hat Text", sans-serif;
+  font-family: "LouisVuitton-Medium", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 
 .bold--text {
-  font-family: "Red Hat Text", sans-serif;
+  font-family: "LouisVuitton-Medium", sans-serif;
   font-weight: bold;
   font-size: 30px;
 }

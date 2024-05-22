@@ -40,3 +40,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family:LouisVuitton-Medium ;
+  src: url(./Font/LouisVuitton-Medium.woff2);
+}
+
+@font-face {
+  font-family:LouisVuitton-Regular ;
+  src: url(./Font/LouisVuitton-Regular.woff2);
+}
