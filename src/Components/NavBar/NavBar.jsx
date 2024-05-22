@@ -1,22 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
-import "../NavBar/Nav.css";
-import logo from "../../Assets/Images/logo.jpeg";
 import { Link } from "react-router-dom";
+import logo from "../../Assets/Images/logo.jpeg";
+import "./Nav.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showSearchBar, setShowSearchBar] = useState(false);
 
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // scrolling functionality
-
   useEffect(() => {
-    // Add scroll event listener to show search bar when user starts scrolling
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setShowSearchBar(true);
@@ -40,107 +36,60 @@ const Navbar = () => {
 
   return (
     <div className="nav__bar p-lg-4">
-      <div className="row justify-content-between">
+      <div className="row justify-content-between align-items-center">
         <div className="col-md-2 col-3">
-          <div className="first-box">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-auto d-flex align-items-center">
-                <Button
-                  variant="link"
-                  className={`navbar__hamburger ${
-                    isMenuOpen ? "open" : "nav__menu__button__margin"
-                  }`}
-                  onClick={toggleMenu}
-                  aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
-                >
-                  <div className="hamburger__line"></div>
-                  <div className="hamburger__line"></div>
-                  <div className="hamburger__line"></div>
-                </Button>
-                <span className="navbar__text d-none d-md-inline ms-3">
-                  {isMenuOpen ? " Close" : "Menu"}
-                </span>
-              </div>
-              {/* desktop view */}
+          <div className="first-box d-flex align-items-center">
+            <Button
+              variant="link"
+              className="navbar__hamburger"
+              onClick={toggleMenu}
+              aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
+            >
+              <i className={`bi ${isMenuOpen ? "bi-x" : "bi-list"}`}></i>
+            </Button>
+            <span className="navbar__text d-none d-md-inline ms-3">
+              {isMenuOpen ? "Close" : "Menu"}
+            </span>
+            <Link to="/search" className="call-us-link me-3">
+              <i className="bi bi-search"> </i>
+            </Link>
 
-              <div className="col-auto d-none d-md-block">
-                <div className="search__bar">
-                  <Link
-                    to="/search"
-                    className="call-us-link"
-                    style={{ display: "flex" }}
-                  >
-                    <i
-                      style={{ fontSize: "25px", marginTop: "5px" }}
-                      className="bi bi-search"
-                    ></i>
-                    <div className="ms-4" style={{ width: "auto" }}></div>
-                    <p className="search__text d-none d-md-inline">Search</p>
-                  </Link>
-                </div>
-              </div>
-
-              {/* mobile view */}
-              <div className="col-auto d-md-none">
-                <div
-                  className={`search__bar ${
-                    showSearchBar ? "visible" : "hidden"
-                  }`}
-                >
-                  <Link
-                    to=""
-                    className="call-us-link"
-                    style={{ display: "flex" }}
-                    onClick={scrollToTop}
-                  >
-                    <i
-                      style={{ fontSize: "25px", marginTop: "5px" }}
-                      className="bi bi-search"
-                    ></i>
-                    <p className="search__text d-none d-md-inline">Search</p>
-                  </Link>
-                </div>
-              </div>
+            <div>
+              <p className="mt-3"> Search</p>
             </div>
           </div>
         </div>
-        <div className="col-md-8 col-6">
-          <div className="second-box">
-            <img className="logo__image" src={logo} />
-          </div>
+        <div className="col-md-8 col-6 text-center">
+          <img className="logo__image" src={logo} alt="Logo" />
         </div>
         <div className="col-md-2 col-3">
-          <div className="third-box">
-            <a
-              href="tel:+1234567890"
-              className="call-us-link d-none d-md-inline ms-2"
-            >
+          <div className="third-box d-flex justify-content-end align-items-center">
+           
+            <a href="tel:+1234567890" className="call-us-link d-none d-md-inline me-3">
               <p className="navbar__text mt-3">Call Us</p>
             </a>
-            <a href="#" className="call-us-link">
+            <Link to="/favorites" className="call-us-link me-3">
+              <i className="bi bi-heart"></i>
+            </Link>
+            <Link to="/profile" className="call-us-link">
               <i className="bi bi-person"></i>
-            </a>
-            <a
-              href="tel:+1234567890"
-              className="call-us-link d-none d-md-inline ms-2"
-            >
-              <i className="bi bi-heart navbar__icon"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
-      {/* Navbar menu (hidden by default, toggled by hamburger icon) */}
-      <div className={`navbar__menu ${isMenuOpen ? "open" : ""}`}>
-        <a href="#" className="navbar__menuitem">
-          Portfolio
-        </a>
-        <a href="#" className="navbar__menuitem">
-          About
-        </a>
-        <a href="#" className="navbar__menuitem">
-          Contact
-        </a>
-      </div>
+      {/* <div className={`navbar__menu ${isMenuOpen ? "open" : ""}`}>
+        <Link to="/gifts" className="navbar__menuitem">Gifts</Link>
+        <Link to="/new" className="navbar__menuitem">New</Link>
+        <Link to="/bags" className="navbar__menuitem">Bags</Link>
+        <Link to="/women" className="navbar__menuitem">Women</Link>
+        <Link to="/men" className="navbar__menuitem">Men</Link>
+        <Link to="/jewellery" className="navbar__menuitem">Jewellery</Link>
+        <Link to="/watches" className="navbar__menuitem">Watches</Link>
+        <Link to="/perfumes" className="navbar__menuitem">Perfumes</Link>
+        <Link to="/art-of-living" className="navbar__menuitem">Art of Living</Link>
+        <Link to="/services" className="navbar__menuitem">Services</Link>
+        <Link to="/world-of-louis-vuitton" className="navbar__menuitem">World of Louis Vuitton</Link>
+      </div> */}
     </div>
   );
 };

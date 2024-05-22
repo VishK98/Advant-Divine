@@ -3,6 +3,7 @@ import "./Home.css";
 import HomeVideo from "../../Assets/Images/home-video.mp4";
 import MenCloths from "../../Assets/Images/men-cloths.mp4";
 import ThirdVideo from "../../Assets/Images/third-video.mp4";
+import imageSrc from './../../Assets/Images/magazine-1.webp';
 import Poster from "../../Assets/Images/poster.png";
 import LB from "../../Assets/Images/lb.png";
 import Person from "../../Assets/Images/person.png";
@@ -10,7 +11,7 @@ import Women from "../../Assets/Images/women.png";
 import Men from "../../Assets/Images/men.png";
 import VideoPlayer from "../Home/Video";
 import Navbar from "../NavBar/NavBar";
-import Footer from "../Footer/footer"
+import Footer from "../Footer/footer";
 
 const cardData = [
   {
@@ -19,13 +20,33 @@ const cardData = [
     link: "#",
   },
   {
-    imgSrc: LB,
+    imgSrc:LB,
     title: "Men",
     link: "#",
   },
   {
     imgSrc: LB,
     title: "Unisex",
+    link: "#",
+  },
+  {
+    imgSrc: LB,
+    title: "View more",
+    link: "#",
+  },
+  {
+    imgSrc: LB,
+    title: "View more",
+    link: "#",
+  },
+  {
+    imgSrc: LB,
+    title: "View more",
+    link: "#",
+  },
+  {
+    imgSrc: LB,
+    title: "View more",
     link: "#",
   },
   {
@@ -139,10 +160,13 @@ const Home = () => {
         </form>
       </div>
       <div className="home-container">
-        <video className="home-video" autoPlay loop muted>
+        {/* <video className="home-video" autoPlay loop muted>
           <source src={HomeVideo} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <div>
+      <img className="temp-image" src={imageSrc} alt="Avant Divine" />
+    </div>
         <div className="text-overlay d-none d-md-inline">
           <h3> Avant Divine Couture</h3>
           <h5 style={{ textDecoration: "underline" }}>
@@ -152,14 +176,33 @@ const Home = () => {
       </div>
       <div>
         <h1 className="mt-lg-5 mt-3 text-center"> Discover The Modern Class</h1>
-        <div className="p-lg-5">
+        {/* <div className="p-lg-5">
           <div className="row">
             {cardData.map((card, index) => (
               <div className="col-md-3 col-6 mb-5" key={index}>
                 <a href={card.link} className="card-link">
-                  <div className="card" style={{ cursor: "pointer" }}>
+                  <div className="" style={{ cursor: "pointer" }}>
                     <img
                       className="card-image"
+                      src={card.imgSrc}
+                      alt={card.title}
+                    />
+                    <h5 className="card-title">{card.title}</h5>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div> */}
+
+        <div className="mt-lg-5 mt-3 trendsetters-box">
+          <div className="row">
+            {cardData.map((card, index) => (
+              <div className="col-md-3 col-6 mb-5" key={index}>
+                <a href={card.link} className="card-link">
+                  <div style={{ cursor: "pointer" }}>
+                    <img
+                      className="trendsetters-image"
                       src={card.imgSrc}
                       alt={card.title}
                     />
@@ -173,27 +216,27 @@ const Home = () => {
       </div>
       <div>
         <div className="text-center">
-          <h1>Uncover the Present-Day Classroom</h1>
+          <h1>Bold Statement</h1>
           <a className="discover-more" href="">
-            Discover more
+            Discover More
           </a>
         </div>
-        <VideoPlayer videoSrc={MenCloths} />;
-        <div className="p-lg-5">
+        {/* <VideoPlayer videoSrc={MenCloths} />; */}
+        <div className="">
+          <img className="temp-image"  src="https://media.gettyimages.com/id/515036734/photo/patna-bihar-state-india-finally-the-rains-indian-women-plant-rice-seedlings-in-a-flooded-bihar.jpg?s=612x612&w=gi&k=20&c=UzjqIKNDyrk-3OZXGOycg9Hg3yaXjh9nzz7QR3A6LaU=" />
+        </div>
+        <div className="mt-lg-5 mt-3 trendsetters-box">
           <div className="row">
             {men.map((card, index) => (
               <div className="col-md-3 col-6 mb-5" key={index}>
                 <a href={card.link} className="card-link">
-                  <div className="card" style={{ cursor: "pointer" }}>
+                  <div style={{ cursor: "pointer" }}>
                     <img
-                      className="card-image"
+                      className="trendsetters-image"
                       src={card.imgSrc}
                       alt={card.title}
                     />
                     <h5 className="card-title">{card.title}</h5>
-                    <h6 className="card-title" style={{ marginTop: "-30px" }}>
-                      {card.amount}
-                    </h6>
                   </div>
                 </a>
               </div>
@@ -213,35 +256,46 @@ const Home = () => {
               </h2>
               <h6 className="text-center"> For The Modern Urbane On The Go</h6>
               <a className="discover-more" href="">
-                Discover more
+                Discover More
               </a>
             </div>
           </div>
         </div>
       </div>
-      <VideoPlayer videoSrc={ThirdVideo} />;
-      <div className="p-lg-5">
-        <div className="row">
-          {athleisur.map((card, index) => (
-            <div className="col-md-3 col-6 mb-5" key={index}>
-              <a href={card.link} className="card-link">
-                <div className="card" style={{ cursor: "pointer" }}>
-                  <img
-                    className="card-image"
-                    src={card.imgSrc}
-                    alt={card.title}
-                  />
-                  <h5 className="card-title">{card.title}</h5>
-                </div>
-              </a>
-            </div>
-          ))}
-        </div>
+      <div className="text-center">
+        <h1>Athleisure Vibes</h1>
+        <a className="discover-more" href="">
+          Discover More
+        </a>
       </div>
+      {/* <VideoPlayer videoSrc={ThirdVideo} />; */}
+      <div className="">
+        <img
+          className="temp-image"
+          src="https://media.gettyimages.com/id/515036734/photo/patna-bihar-state-india-finally-the-rains-indian-women-plant-rice-seedlings-in-a-flooded-bihar.jpg?s=612x612&w=gi&k=20&c=UzjqIKNDyrk-3OZXGOycg9Hg3yaXjh9nzz7QR3A6LaU="
+        />
+      </div>
+
+      <div className="mt-lg-5 mt-3 trendsetters-box">
+          <div className="row">
+            {athleisur.map((card, index) => (
+              <div className="col-md-3 col-6 mb-5" key={index}>
+                <a href={card.link} className="card-link">
+                  <div style={{ cursor: "pointer" }}>
+                    <img
+                      className="trendsetters-image"
+                      src={card.imgSrc}
+                      alt={card.title}
+                    />
+                    <h5 className="card-title">{card.title}</h5>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
       <div>
-        <h2 className="text-center">
-          Exclusive Limit ed Editi Rs. 0000 on Drops
-        </h2>
+        <h2 className="text-center">Exclusive Limited Edition Drops</h2>
         <h6 className="text-center">
           {" "}
           A Must Have For Colectors & Trendsetters Alike
@@ -266,10 +320,10 @@ const Home = () => {
       </div>
       <div className="text-center mb-5">
         <a className="discover-more" href="">
-          Discover more
+          Discover More
         </a>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
