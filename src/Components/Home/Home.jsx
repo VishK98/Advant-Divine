@@ -185,14 +185,14 @@ const Home = () => {
       <img className="temp-image" src={Banner1} alt="Avant Divine" />
     </div>
         <div className="text-overlay d-none d-md-inline">
-          <h3> Avant Divine Couture</h3>
-          <h5 style={{ textDecoration: "underline" }}>
+          <h3 className="exclusive-text"> Avant Divine Couture</h3>
+          <h5 className="exclusive-text" style={{ textDecoration: "underline" }}>
             Explore the Intersection of Urban Style & Timeless Elegance
           </h5>
         </div>
       </div>
       <div>
-        <h1 className="mt-lg-5 mt-3 text-center"> Discover The Modern Class</h1>
+        <h1 className="mt-lg-5 mt-3 text-center exclusive-text"> Discover The Modern Class</h1>
         {/* <div className="p-lg-5">
           <div className="row">
             {cardData.map((card, index) => (
@@ -233,7 +233,7 @@ const Home = () => {
       </div>
       <div>
         <div className="text-center">
-          <h1>Bold Statement</h1>
+          <h1 className="exclusive-text">Bold Statement</h1>
           <a className="discover-more" href="">
             Discover More
           </a>
