@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
 
             <div>
-              <p className="mt-3"> Search</p>
+              <p className="mt-3 navbar__text"> Search</p>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className="col-md-2 col-3">
           <div className="third-box d-flex justify-content-end align-items-center">
            
-            <a href="tel:+1234567890" className="call-us-link d-none d-md-inline me-3">
+            <a href="tel:+1234567890" className="call-us-link d-none d-md-inline me-3 navbar__text">
               <p className="navbar__text mt-3">Call Us</p>
             </a>
             <Link to="/favorites" className="call-us-link me-3">
