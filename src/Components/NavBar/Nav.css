@@ -29,6 +29,7 @@ body {
   
   .navbar__hamburger .bi {
     font-size: 25px;
+    color: #000;
   }
   
   .navbar__menu {
