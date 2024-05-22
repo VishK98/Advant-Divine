@@ -264,11 +264,11 @@ const Home = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 col-12">
-            <img width="100%" height="90%" src={Poster} />
+            <img className="img-poster" src={Poster} />
           </div>
           <div className="col-md-6 col-12">
             <div className="poster-text">
-              <h2 className="text-center bold--text">
+              <h2 className="text-center bold--text1">
                 INSPIRED BY THE VIBRANT WORLD OF STREET ART
               </h2>
               <h6 className="text-center"> For The Modern Urbane On The Go</h6>
