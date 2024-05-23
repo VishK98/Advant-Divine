@@ -72,6 +72,13 @@ body {
   .navbar__icon {
     font-size: 25px;
   }
+  .navbar__margin {
+    margin-right: 20px; 
+   }
+   .bi-heart::before {
+    content: "\f417";
+    margin-right: 14px;
+}
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
