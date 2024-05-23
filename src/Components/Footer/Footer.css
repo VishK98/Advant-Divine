@@ -11,6 +11,11 @@
     font-family: "Futura Regular", sans-serif;
     margin-bottom: 35px;
 }
+.footer-text {
+    color: #fff;
+    font-size: 17px;
+    font-family: "Futura Regular", sans-serif;
+}
 
 .first-column {
     margin-bottom: 20px;
