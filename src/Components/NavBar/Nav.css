@@ -63,6 +63,8 @@ body {
   
   .navbar__text {
     font-size: 15px;
+    text-decoration: none;  
+    color: #000;
     font-family: "futura", sans-serif;
     margin-right: 15px;
   }

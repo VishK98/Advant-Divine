@@ -39,24 +39,29 @@ const Navbar = () => {
       <div className="row justify-content-between align-items-center">
         <div className="col-md-2 col-3">
           <div className="first-box d-flex align-items-center">
-            <Button
-              variant="link"
-              className="navbar__hamburger"
-              onClick={toggleMenu}
-              aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
-            >
-              <i className={`bi ${isMenuOpen ? "bi-x" : "bi-list"}`}></i>
-            </Button>
-            <span className="navbar__text d-none d-md-inline ms-3">
-              {isMenuOpen ? "Close" : "Menu"}
-            </span>
-            <Link to="/search" className="call-us-link me-3">
-              <i className="bi bi-search"> </i>
-            </Link>
+          <Button
+        variant="link"
+        className="navbar__hamburger"
+        onClick={toggleMenu}
+        aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
+      >
+        <i className={`bi ${isMenuOpen ? "bi-x" : "bi-list"}`}></i>
+      </Button>
+      <span 
+        className="navbar__text d-none d-md-inline ms-3"
+        onClick={toggleMenu}
+        style={{ cursor: 'pointer' }}
+      >
+        {isMenuOpen ? "Close" : "Menu"}
+      </span>
+      <Link to="/search" className="call-us-link me-3">
+        <i className="bi bi-search"></i>
+      </Link>
 
             <div>
-              <p className="mt-3 navbar__text"> Search</p>
-            </div>
+      
+      <Link to="/search" className="mt-3 navbar__text"> Search</Link>
+    </div>
           </div>
         </div>
         <div className="col-md-8 col-6 text-center">
