@@ -68,7 +68,7 @@ const Navbar = () => {
           <img className="logo__image" src={logo} alt="Logo" />
         </div>
         <div className="col-md-2 col-3">
-          <div className="third-box d-flex justify-content-end align-items-center">
+          <div className="third-box d-flex justify-content-end align-items-center navbar__margin">
            
             <a href="tel:+1234567890" className="call-us-link d-none d-md-inline me-3 navbar__text">
               <p className="navbar__text mt-3">Call Us</p>
