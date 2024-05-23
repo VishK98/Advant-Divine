@@ -182,17 +182,17 @@ const Home = () => {
           Your browser does not support the video tag.
         </video> */}
         <div>
-      <img className="temp-image" src={Banner1} alt="Avant Divine" />
+      <img className="temp-image1" src={Banner1} alt="Avant Divine" />
     </div>
-        <div className="text-overlay d-none d-md-inline">
-          <h3 className="exclusive-text "> Avant Divine Couture</h3>
-          <h5 className="exclusive-text " style={{ textDecoration: "underline" }}>
+        <div className="text-overlay d-none d-md-inline exclusive-text ">
+          <h3 className=""> Avant Divine Couture</h3>
+          <h5 className=" " style={{ textDecoration: "underline" }}>
             Explore the Intersection of Urban Style & Timeless Elegance
           </h5>
         </div>
       </div>
       <div className="top-header-content">
-        <h1 className="text-center bold--text"> Discover The Modern Class</h1>
+        <h1 className="text-center modern--class "> Discover The Modern Class</h1>
         {/* <div className="p-lg-5">
           <div className="row">
             {cardData.map((card, index) => (
