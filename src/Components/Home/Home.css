@@ -7,6 +7,10 @@
   font-family:LouisVuitton-Regular ;
   src: url(./../../Font/LouisVuitton-Regular.woff2);
 }
+@font-face {
+  font-family:Futura Regular ;
+  src: url(./../../Font/FUTURA55REGULAR.TTF);
+}
 
 .home-container {
   position: relative;
@@ -22,13 +26,14 @@
   object-fit: cover;
 }
 .img-poster {
+  margin-left: -12px;
   width: 100%; 
   height: 90%;
 }
 
 .text-overlay {
   position: absolute;
-  font-family: "LouisVuitton-Medium", sans-serif;
+  font-family: "Futura Regular", sans-serif;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
@@ -38,9 +43,11 @@
 
 .card-title {
   text-align: center;
-  font-family: "LouisVuitton-Medium", sans-serif;
+  font-family: "Futura Regular", sans-serif;
+  font-weight: 1;
   padding: 18px;
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: 0.6px;
   color: #000;
 }
 
@@ -59,9 +66,10 @@
 }
 
 .discover-more {
-  font-size: 20px;
-  font-family: "LouisVuitton-Medium", sans-serif;
+  font-size: 14px;
+  font-family: "Futura Regular", sans-serif;
   color: black;
+  letter-spacing: 0.4px;
   text-decoration: none;
   position: relative;
 }
@@ -161,19 +169,22 @@
   height: 100%;
 }
 .exclusive-text {
-  font-family: "LouisVuitton-Medium", sans-serif;
+  font-family: "Futura Regular", sans-serif;
   font-optical-sizing: auto;
+  letter-spacing: 0.4px;
   font-weight: 500;
   font-style: normal;
 }
 
 .bold--text {
-  font-family: "LouisVuitton-Medium", sans-serif;
+  font-family: "Futura Regular", sans-serif;
+  letter-spacing: 0.4px;
   font-weight: bold;
   font-size: 30px;
 }
 .bold--text1 {
-  font-family: "LouisVuitton-Medium", sans-serif;
+  font-family: "Futura Regular", sans-serif;
+  letter-spacing: 0.4px;
   font-weight: bold;
   font-size: 30px;
 }
@@ -183,7 +194,8 @@
   text-align: center !important;
 }
 .font--text {
-  font-family: "LouisVuitton-Medium", sans-serif;
+  font-family: "Futura Regular", sans-serif;
+  letter-spacing: 0.4px;
 }
 
 
@@ -202,7 +214,7 @@
     height: 90%;
   }
   .bold--text1 {
-    font-family: "LouisVuitton-Medium", sans-serif;
+    font-family: "Futura Regular", sans-serif;
     font-weight: bold;
     font-size: 30px;
   }
