@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3 col-6 mt-3">
+                    <div className="col-md-3 col-6 mt-3 footer-text">
                         <div className="first-column">
                             <p className="footer-title">HELP</p>
                             <ul>
@@ -39,7 +39,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3 col-6 mt-3">
+                    <div className="col-md-3 col-6 mt-3 footer-text">
                         <div className="first-column">
                             <p className="footer-title">SERVICES</p>
                             <ul>
@@ -58,7 +58,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3 col-6 mt-3">
+                    <div className="col-md-3 col-6 mt-3 footer-text">
                         <div className="first-column">
                             <p className="footer-title">ABOUT</p>
                             <ul>
@@ -83,7 +83,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3 col-6 mt-3">
+                    <div className="col-md-3 col-6 mt-3 footer-text">
                         <div className="first-column">
                             <p className="footer-title">CONNECT</p>
                             <ul>
@@ -95,9 +95,9 @@ function Footer() {
                                     </Link>   </li>
 
                             </ul>
-                            <p className="footer-title">ADDRESS</p>
+                            <p className="footer-text">ADDRESS</p>
                             <ul>
-                                <li className="text-white">
+                                <li className="text-white footer-text">
                                     <Link>
                                     35- Ferozeshah Road
                                      <br/>New Delhi - 110001 <br/>
