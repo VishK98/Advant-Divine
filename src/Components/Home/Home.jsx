@@ -185,8 +185,8 @@ const Home = () => {
       <img className="temp-image" src={Banner1} alt="Avant Divine" />
     </div>
         <div className="text-overlay d-none d-md-inline">
-          <h3 className="exclusive-text"> Avant Divine Couture</h3>
-          <h5 className="exclusive-text" style={{ textDecoration: "underline" }}>
+          <h3 className="exclusive-text "> Avant Divine Couture</h3>
+          <h5 className="exclusive-text " style={{ textDecoration: "underline" }}>
             Explore the Intersection of Urban Style & Timeless Elegance
           </h5>
         </div>
@@ -271,7 +271,7 @@ const Home = () => {
               <h2 className="text-center bold--text1">
                 INSPIRED BY THE VIBRANT WORLD OF STREET ART
               </h2>
-              <h6 className="text-center"> For The Modern Urbane On The Go</h6>
+              <h6 className="text-center font--text"> For The Modern Urbane On The Go</h6>
               <a className="discover-more" href="">
                 Discover More
               </a>
@@ -310,7 +310,7 @@ const Home = () => {
         </div>
       <div>
         <h2 className="text-center bold--text">Exclusive Limited Edition Drops</h2>
-        <h6 className="text-center">
+        <h6 className="text-center font--text">
           {" "}
           A Must Have For Colectors & Trendsetters Alike
         </h6>

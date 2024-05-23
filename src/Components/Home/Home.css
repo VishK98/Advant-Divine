@@ -182,6 +182,9 @@
   margin-bottom: 50px;
   text-align: center !important;
 }
+.font--text {
+  font-family: "LouisVuitton-Medium", sans-serif;
+}
 
 
 @media (max-width: 768px) {
