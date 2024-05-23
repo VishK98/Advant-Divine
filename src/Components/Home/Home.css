@@ -34,7 +34,7 @@
 .text-overlay {
   position: absolute;
   font-family: "Futura Regular", sans-serif;
-  bottom: 20px;
+  bottom: -50px;
   left: 50%;
   transform: translateX(-50%);
   color: white;
@@ -182,6 +182,14 @@
   font-weight: bold;
   font-size: 30px;
 }
+.modern--class {
+  font-family: "Futura Regular", sans-serif;
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 18vh;
+
+}
 .bold--text1 {
   font-family: "Futura Regular", sans-serif;
   letter-spacing: 0.4px;
@@ -270,6 +278,12 @@
 .temp-image{
   height: 100vh;
   width: 100%;
+}
+.temp-image1{
+  height: 100vh;
+  width: 100%;
+  margin-top: 76px;
+
 }
 
 @media (max-width: 1024px) {
