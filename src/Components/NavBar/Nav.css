@@ -7,6 +7,10 @@
   font-family:LouisVuitton-Regular ;
   src: url(./../../Font/LouisVuitton-Regular.woff2);
 }
+@font-face {
+  font-family: futura ;
+  src: url(./../../Font/FUTURA45LIGHT.TTF);
+}
 
 /* General Styles */
 body {
@@ -52,15 +56,14 @@ body {
   
   .navbar__menuitem {
     text-decoration: none;
-    font-family: "LouisVuitton-Medium", sans-serif;
+    font-family: "futura", sans-serif;
     color: #333;
     font-weight: 500;
   }
   
   .navbar__text {
     font-size: 15px;
-    font-family: "LouisVuitton-Medium", sans-serif;
-
+    font-family: "futura", sans-serif;
     margin-right: 15px;
   }
   
@@ -83,7 +86,6 @@ body {
   
     .navbar__menuitem {
       text-align: left;
-      font-family: "LouisVuitton-Medium", sans-serif;
       padding: 10px 20px;
       border-bottom: 1px solid #ddd;
     }
