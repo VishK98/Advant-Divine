@@ -1,0 +1,20 @@
+/* CardSlider.css */
+.slider-card {
+    padding: 0 10px;
+  }
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  .trendsetters-image {
+    width: 100%;
+    height: auto;
+  }
+  .card-title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .slick-prev:before, .slick-next:before {
+    color: black; /* Customize the arrow color as needed */
+  }
+  
