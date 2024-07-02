@@ -1,0 +1,59 @@
+/* Header_text_css */
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.line {
+    flex-grow: 8;
+    height: 5px;
+    background-color: #e4f265;
+    border: none;
+    margin: 4 2px;
+}
+
+.section-text {
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Futura Regular", sans-serif;
+    color: #333;
+}
+
+/* filter_button_css */
+.filter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    min-width: 120px;
+    width: 140px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+
+.filter-btn svg {
+    margin-right: 5px;
+}
+
+.selected-color {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* favourite */
+.favorite-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    cursor: pointer;
+}

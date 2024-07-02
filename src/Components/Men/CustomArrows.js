@@ -1,4 +1,3 @@
-// CustomArrows.js
 import React from 'react';
 
 export const NextArrow = (props) => {
@@ -6,7 +5,13 @@ export const NextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', right: 10, zIndex: 1 }}
+      style={{
+        ...style,
+        display: 'block',
+        fontSize: '30px',
+        right: 10,
+        zIndex: 1,
+      }}
       onClick={onClick}
     />
   );
@@ -17,7 +22,13 @@ export const PrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', left: 10, zIndex: 1 }}
+      style={{
+        ...style,
+        display: 'block',
+        fontSize: '30px', 
+        left: 10,
+        zIndex: 1,
+      }}
       onClick={onClick}
     />
   );
