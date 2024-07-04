@@ -39,7 +39,7 @@ const cardData = [
   {
     imgSrc:C1P2,
     title: "Men",
-    link: "./../Mens",
+    link: "./../Men",
   },
   {
     imgSrc: C1P3,
