@@ -16,11 +16,6 @@
     height: auto;
 }
 
-.card-title {
-    text-align: center;
-    margin-top: 10px;
-}
-
 .slick-prev:before,
 .slick-next:before {
     color: black;
@@ -42,4 +37,11 @@
 
 .slick-next {
     right: 10px;
+}
+
+@media only screen and (max-width: 625px) {
+    .trendsetters-image {
+        width: 100%;
+        height: 180px;
+    }
 }
