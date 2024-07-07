@@ -42,10 +42,12 @@
 }
 
 .card-title {
+  text-align: center;
   font-family: "Futura Regular", sans-serif;
-  padding: 4px;
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-weight: 1;
+  padding: 18px;
+  font-size: 15px;
+  letter-spacing: 0.6px;
   color: #000;
 }
 

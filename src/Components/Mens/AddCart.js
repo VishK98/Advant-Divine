@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
-import Sidebar from './SideBar';
-import './Men.css';
+import Sidebar from './SideBar'
+import './Mens';
 
 const AddCartButton = () => {
     const [isSidebarOpen, setSidebarOpen] = useState(false);

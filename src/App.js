@@ -6,7 +6,7 @@ import About from "./Components/About/about";
 import Service from "./Components/Service/service";
 import Contact from "./Components/Contact/contact";
 import Search from "./Components/Search/Search";
-import Men from "./Components/Men/Men";
+import Mens from "./Components/Mens/Mens";
 
 function App() {
   return (
@@ -19,8 +19,7 @@ function App() {
           <Route exact path="/service" element={<Service />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/search" element={<Search />} />
-          {/* <Route exact path="/Mens" element={<Mens />} /> */}
-          <Route exact path="/Men" element={<Men />} />
+          <Route exact path="/Mens" element={<Mens />} />
         </Routes>
         {/* <Footer /> */}
       </Router>
