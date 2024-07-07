@@ -6,7 +6,7 @@ import './FilterSort.css'; // Create a CSS file for styling
 const FilterSort = () => {
   return (
     <div className="filter-header">
-      <div className="filter-title">Mens</div>
+      <div className="filter-title">Men</div>
       <button className="filter-button">
         Filters
         <span className="filter-icon">
