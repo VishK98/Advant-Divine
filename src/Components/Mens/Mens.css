@@ -1,0 +1,36 @@
+.Mens-Banner{
+        height: 100vh;
+        width: 100%;
+        margin-top: 76px;
+}
+.add2cart-btn {
+        width: 100%;
+        padding: 7px;
+        border: 1px solid #000;
+        color: #212121;
+        z-index: 1;
+        background: #fff;
+        position: relative;
+        font-size: 18px;
+        transition: all 250ms;
+        overflow: hidden;
+    }
+    
+    .add2cart-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        background-color: #212121;
+        z-index: -1;
+        transition: all 250ms
+    }
+    
+    .add2cart-btn:hover {
+        color: #e8e8e8;
+    }
+    .add2cart-btn:hover::before {
+        width: 100%;
+    }
