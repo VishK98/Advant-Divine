@@ -53,7 +53,7 @@ const Mens = () => {
       <div className="Mens-Banner">
         <img src={Banner1} alt="Avant Divine" />
       </div>
-      <SectionHeader text="Mens" />
+      <SectionHeader text="Men" />
       <FilterSort />
       <div className="mt-lg-5 mt-3 trendsetters-box">
         <div className="row">
