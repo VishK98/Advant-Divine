@@ -37,9 +37,9 @@ function ProductDetails() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                         <div className="details-container">
-                            <div style={{ display: "flex", justifyContent: "space-between" }}>
-                                <p>Product 1 </p>
-                                <p>₹ 3,000.00</p>
+                            <div>
+                                <p className='product-name'>Product 1 </p>
+                                <p className='product-amount'>₹ 3,000.00</p>
                             </div>
                             <Tab />
                             <div className="size-box">
@@ -54,8 +54,10 @@ function ProductDetails() {
                                 ))}
                             </div>
                             <div className="buttons-container">
-                                <button className="cart-buy-btn buy-now-btn" onClick={handleBuyNowClick}>Buy Now</button>
-                                <button className="cart-buy-btn add-to-cart-btn" onClick={handleAddToCartClick}>Add to Cart</button>
+                                <button className="cart-buy-btn buy-now-btn" onClick={handleBuyNowClick}>BUY IT NOW</button>
+                                </div>
+                                <div>
+                                <button className="cart-buy-btn add-to-cart-btn" onClick={handleAddToCartClick}>ADD TO CART</button>
                             </div>
                         </div>
                     </div>
