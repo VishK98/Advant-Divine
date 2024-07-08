@@ -28,9 +28,10 @@ export default function LabTabs() {
                                 },
                             }}
                         >
-                            <Tab
+                            <Tab 
                                 label="DESCRIPTION"
                                 value="1"
+                                className='description-title'
                                 sx={{
                                     '&.Mui-selected': {
                                         color: 'black',
@@ -43,6 +44,7 @@ export default function LabTabs() {
                             <Tab
                                 label="DETAILS"
                                 value="2"
+                                className='description-title'
                                 sx={{
                                     '&.Mui-selected': {
                                         color: 'black',
@@ -55,6 +57,7 @@ export default function LabTabs() {
                             <Tab
                                 label="WASH CARE"
                                 value="3"
+                                className='description-title'
                                 sx={{
                                     '&.Mui-selected': {
                                         color: 'black',
@@ -66,15 +69,15 @@ export default function LabTabs() {
                             />
                         </TabList>
                     </Box>
-                    <TabPanel value="1" style={{ fontSize: "10px", textAlign: "justify" }}>
+                    <TabPanel className='product-description' value="1" style={{ textAlign: "justify" }}>
                         INDULGE IN LUXURY WITH OUR GREY HERRINGBONE HOODIE, CRAFTED WITH A SOPHISTICATED GREY HERRINGBONE DESIGN AND AN INNER WAFFLE LINING FOR ADDED COMFORT. ELEVATE YOUR CASUAL WARDROBE WITH THIS EXCLUSIVE PIECE, PERFECT FOR THOSE WHO APPRECIATE STYLE.
                     </TabPanel>
-                    <TabPanel value="2" style={{ fontSize: "10px" }}>
+                    <TabPanel className='product-description' value="2" >
                         <p>100% COTTON</p>
                         <p className='details-tab'>Weight - 565 GSM</p>
                         <p className='details-tab'>SCREEN PRINT</p>
                     </TabPanel>
-                    <TabPanel value="3" style={{ fontSize: "10px", textAlign: "justify" }}>
+                    <TabPanel className='product-description' value="3" style={{ textAlign: "justify" }}>
                         <p>USE COLD WATER TO PROTECT AGAINST FADING & SHRINKING.</p>
                         <p className='details-tab'>AVOID HARSHER DETERGENTS & TURN THEM INSIDE OUT FOR THE WASH.</p>
                     </TabPanel>

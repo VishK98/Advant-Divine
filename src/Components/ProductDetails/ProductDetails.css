@@ -24,6 +24,16 @@
     top: 90px;
 }
 
+.product-name {
+    font-size: 35px;
+    font-weight: 600;
+}
+.product-amount{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Futura Regular", sans-serif;
+}
+
 .details-tab {
     margin-top: -9px;
 }
@@ -72,8 +82,9 @@
 }
 
 .buttons-container {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 .cart-buy-btn {
@@ -93,8 +104,18 @@
     border-radius: 33px;
 }
 
+.product-description{
+    font-family: "Futura Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
 
-
+.description-title {
+  /* General styles for the tab */
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: none; /* Example of removing uppercase transformation */
+}
 @media (max-width: 767px) {
     .image-container {
         overflow-x: scroll;
