@@ -87,6 +87,13 @@
     align-items: center;
 }
 
+.center-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .cart-buy-btn {
     background-color: black;
     color: white;
@@ -95,7 +102,6 @@
     padding: 10px 20px;
     border-radius: 30px;
     cursor: pointer;
-    margin-top: 50px;
 }
 
 .buy-now-btn {

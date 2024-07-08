@@ -7,7 +7,7 @@ import C2P3 from "../../Assets/Images/Product Image/Product Section2-3.png";
 import Tab from "./Tab";
 
 function ProductDetails() {
-    const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL','XXXL'];
+    const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL'];
     const [selectedSize, setSelectedSize] = useState(null);
 
     const handleSizeClick = (size) => {
@@ -53,11 +53,9 @@ function ProductDetails() {
                                     </div>
                                 ))}
                             </div>
-                            <div className="buttons-container">
-                                <button className="cart-buy-btn buy-now-btn" onClick={handleBuyNowClick}>BUY IT NOW</button>
-                                </div>
-                                <div>
-                                <button className="cart-buy-btn add-to-cart-btn" onClick={handleAddToCartClick}>ADD TO CART</button>
+                            <div class="center-div">
+                                <button className="cart-buy-btn buy-now-btn mt-5" onClick="handleBuyNowClick()">BUY IT NOW</button><br />
+                                <button className="cart-buy-btn add-to-cart-btn" onClick="handleAddToCartClick()">ADD TO CART</button>
                             </div>
                         </div>
                     </div>
