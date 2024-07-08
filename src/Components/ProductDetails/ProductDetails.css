@@ -97,10 +97,13 @@
     padding: 10px 20px;
     border-radius: 30px;
     cursor: pointer;
+    width: 49vw;
+    margin-top: -15px;
 }
 
 .buy-now-btn {
     margin-right: 10px;
+    width: 50vw;
     font-family: "Futura Regular", sans-serif;
     border-radius: 33px;
 }
