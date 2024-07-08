@@ -20,6 +20,7 @@
 
 .details-container {
     position: sticky;
+    font-family: "Futura Regular", sans-serif;
     top: 90px;
 }
 
@@ -35,14 +36,17 @@
 
 .size {
     display: flex;
+    font-family: "Futura Regular", sans-serif;
+    font-weight: 700;
     justify-content: center;
     align-items: center;
     height: 30px;
     width: 65px;
     border: 1px solid grey;
-    border-radius: 5px;
+    border-radius: 22px;
     cursor: pointer;
     margin-right: 20px;
+    
 }
 
 .size.selected {
@@ -54,10 +58,11 @@
 .size-chart {
     display: flex;
     justify-content: center;
+    font-family: "Futura Regular", sans-serif;
     align-items: center;
     height: 30px;
     width: 95px;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     margin-right: 20px;
     background-color: black;
@@ -75,14 +80,17 @@
     background-color: black;
     color: white;
     border: none;
+    font-family: "Futura Regular", sans-serif;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     margin-top: 50px;
 }
 
 .buy-now-btn {
     margin-right: 10px;
+    font-family: "Futura Regular", sans-serif;
+    border-radius: 33px;
 }
 
 

@@ -38,8 +38,8 @@ function ProductDetails() {
                     <div className="col-lg-6 col-md-6 col-12">
                         <div className="details-container">
                             <div style={{ display: "flex", justifyContent: "space-between" }}>
-                                <p>BG BOUQUET EMBROIDERY T-SHIRT</p>
-                                <p>RS. 5,495</p>
+                                <p>Product 1 </p>
+                                <p>₹ 3,000.00</p>
                             </div>
                             <Tab />
                             <div className="size-box">
