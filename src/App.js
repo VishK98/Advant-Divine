@@ -7,6 +7,7 @@ import Service from "./Components/Service/service";
 import Contact from "./Components/Contact/contact";
 import Search from "./Components/Search/Search";
 import Mens from "./Components/Mens/Mens";
+import ProductDetails from "./Components/ProductDetails/ProductDetails";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/search" element={<Search />} />
           <Route exact path="/Mens" element={<Mens />} />
+          <Route exact path="/product-details" element={<ProductDetails />} />
         </Routes>
         {/* <Footer /> */}
       </Router>
