@@ -14,7 +14,7 @@ import './Mens.css';
 import CardSlider from './CardSlider';
 
 const cardData = [
-  { imgSrc: C1P4, title: "Product 1", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 1", amount: "₹3000", link: "./product-details" },
   { imgSrc: C1P4, title: "Product 2", amount: "₹3000", link: "#" },
   { imgSrc: C1P4, title: "Product 3", amount: "₹3000", link: "#" },
   { imgSrc: C1P4, title: "Product 4", amount: "₹3000", link: "#" },
