@@ -14,44 +14,44 @@ import './Mens.css';
 import CardSlider from './CardSlider';
 
 const cardData = [
-  { imgSrc: C1P4, title: "Product 1", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 2", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 3", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 4", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 1", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 2", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 3", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 4", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 1", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 2", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 3", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 4", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 1", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 2", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 3", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C1P4, title: "Product 4", amount: "Rs. 3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 1", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 2", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 3", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 4", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 1", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 2", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 3", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 4", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 1", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 2", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 3", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 4", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 1", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 2", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 3", amount: "₹3000", link: "#" },
+  { imgSrc: C1P4, title: "Product 4", amount: "₹3000", link: "#" },
 ];
 
 const men = [
-  { imgSrc: C2P1, title: "Product Name", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C2P2, title: "Product Name", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C2P3, title: "Product Name", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C2P4, title: "Product Name",amount: "Rs. 3000", link: "#" },
+  { imgSrc: C2P1, title: "Product Name", amount: "₹3000", link: "#" },
+  { imgSrc: C2P2, title: "Product Name", amount: "₹3000", link: "#" },
+  { imgSrc: C2P3, title: "Product Name", amount: "₹3000", link: "#" },
+  { imgSrc: C2P4, title: "Product Name", amount: "₹3000", link: "#" },
 ];
 
-const categories =[
-  { imgSrc: C2P1, title: "Women", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C2P2, title: "Men", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C2P3, title: "Unisex", amount: "Rs. 3000", link: "#" },
-  { imgSrc: C2P4, title: "View more", amount: "Rs. 3000", link: "#" },
+const categories = [
+  { imgSrc: C2P1, title: "Women", amount: "₹3000", link: "#" },
+  { imgSrc: C2P2, title: "Men", amount: "₹3000", link: "#" },
+  { imgSrc: C2P3, title: "Unisex", amount: "₹3000", link: "#" },
+  { imgSrc: C2P4, title: "View more", amount: "₹3000", link: "#" },
 ];
 
 const Mens = () => {
   return (
     <div>
       <Navbar />
-      <div className="Mens-Banner">
-        <img src={Banner1} alt="Avant Divine" />
+      <div className="home-container">
+        <img className="temp-image1" src={Banner1} alt="Avant Divine" />
       </div>
       <SectionHeader text="Men" />
       <FilterSort />

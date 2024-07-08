@@ -51,7 +51,7 @@ const CardSlider = ({ cards }) => {
                 src={card.imgSrc}
                 alt={card.title}
               />
-              <h5 className="card-title">{card.title}</h5>
+              <h5 className="card-title1">{card.title}</h5>
             </div>
           </a>
         </div>

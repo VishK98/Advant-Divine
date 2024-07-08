@@ -10,11 +10,19 @@
     width: 100%;
     height: auto;
   }
-  .card-title {
+  .card-title1 {
+    font-family: "Futura Regular", sans-serif;
     text-align: center;
+    font-size: 15px;
     margin-top: 10px;
   }
   .slick-prev:before, .slick-next:before {
-    color: black; /* Customize the arrow color as needed */
+    color: rgb(255, 255, 255); /* Customize the arrow color as needed */
   }
-  
+
+  @media (max-width: 768px) {
+    .slider-card {
+      padding: 0%;
+    }
+    
+  }
