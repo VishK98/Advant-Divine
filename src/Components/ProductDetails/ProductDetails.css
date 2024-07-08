@@ -86,10 +86,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.button-row {
+    display: flex;
     align-items: center;
+    gap: 13px; 
+    margin-bottom: 20px; 
 }
 
-.cart-buy-btn {
+
+.buynow-btn {
     background-color: black;
     color: white;
     border: none;
@@ -97,16 +103,34 @@
     padding: 10px 20px;
     border-radius: 30px;
     cursor: pointer;
-    width: 49vw;
-    margin-top: -15px;
+    width: 83%;
+    justify-content: start;
+    margin-top: 30px;
+}
+.cart-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Futura Regular", sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
 }
 
-.buy-now-btn {
-    margin-right: 10px;
-    width: 50vw;
-    font-family: "Futura Regular", sans-serif;
-    border-radius: 33px;
+.favorite-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 25px;
 }
+
+
 
 .product-description{
     font-family: "Futura Regular", sans-serif;

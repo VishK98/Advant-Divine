@@ -5,6 +5,8 @@ import C2P1 from "../../Assets/Images/Product Image/Product Section2-1.png";
 import C2P2 from "../../Assets/Images/Product Image/Product Section2-2.png";
 import C2P3 from "../../Assets/Images/Product Image/Product Section2-3.png";
 import Tab from "./Tab";
+import { Link } from "react-router-dom";
+
 
 function ProductDetails() {
     const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL'];
@@ -54,8 +56,21 @@ function ProductDetails() {
                                 ))}
                             </div>
                             <div class="center-div">
-                                <button className="cart-buy-btn buy-now-btn mt-5" onClick="handleBuyNowClick()">BUY IT NOW</button><br />
-                                <button className="cart-buy-btn add-to-cart-btn" onClick="handleAddToCartClick()">ADD TO CART</button>
+                                <div class="button-row">
+                                    <button className="buynow-btn" onclick="handleBuyNowClick()">BUY IT NOW</button>
+                                    <div class="favorite-button">
+                                        <a href="/favorites" className="call-us-link">
+                                            <i className="bi bi-heart" style={{ marginTop: '6px', marginLeft: "13px" }}></i>
+                                        </a>
+                                    </div>
+                                    <div class="favorite-button">
+                                        <a href="/favorites" className="call-us-link">
+                                            <i className="bi bi-share" style={{ marginLeft: "-2px" }}></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <button className="cart-btn" onclick="handleAddToCartClick()">ADD TO CART</button>
                             </div>
                         </div>
                     </div>
