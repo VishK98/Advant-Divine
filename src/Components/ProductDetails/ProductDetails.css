@@ -95,9 +95,10 @@
 }
 
 
-.buynow-btn {
-    background-color: black;
-    color: white;
+.cart-btn  {
+    background-color: #917272;
+    border: 50px;
+    color: #000000;
     border: none;
     font-family: "Futura Regular", sans-serif;
     padding: 10px 20px;
@@ -107,7 +108,7 @@
     justify-content: start;
     margin-top: 30px;
 }
-.cart-btn {
+.buynow-btn{
     background-color: black;
     color: white;
     border: none;
