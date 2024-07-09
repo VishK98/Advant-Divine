@@ -96,10 +96,8 @@
 
 
 .cart-btn  {
-    background-color: #917272;
-    border: 50px;
-    color: #000000;
-    border: none;
+    background-color: #ffffff;
+    border: 1px solid black;
     font-family: "Futura Regular", sans-serif;
     padding: 10px 20px;
     border-radius: 30px;
