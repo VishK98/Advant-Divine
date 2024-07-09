@@ -55,15 +55,15 @@ const Navbar = () => {
             >
               {isMenuOpen ? "Close" : "Menu"}
             </span>
-            <Link to="/search" className="call-us-link me-3">
+            {/* <Link to="/search" className="call-us-link me-3">
               <i className="bi bi-search"></i>
-            </Link>
+            </Link> */}
 
             <div>
-              <Link to="/search" className="mt-3 navbar__text">
+              {/* <Link to="/search" className="mt-3 navbar__text">
                 {" "}
                 Search
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
