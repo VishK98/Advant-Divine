@@ -60,9 +60,9 @@ function ProductDetails() {
               </div>
               <div className="center-div">
                 <div className="button-row">
-                  <button className="buynow-btn" onClick={handleBuyNowClick}>
-                    BUY IT NOW
-                  </button>
+                <button className="cart-btn" onClick={handleAddToCartClick}>
+                  ADD TO CART
+                </button>
                   <div className="favorite-button">
                     <Link to="/favorites" className="call-us-link">
                       <i
@@ -80,9 +80,10 @@ function ProductDetails() {
                     </Link>
                   </div>
                 </div>
-                <button className="cart-btn" onClick={handleAddToCartClick}>
-                  ADD TO CART
-                </button>
+                
+                <button className="buynow-btn" onClick={handleBuyNowClick}>
+                    BUY IT NOW
+                  </button>
               </div>
             </div>
           </div>
