@@ -2,9 +2,20 @@
     padding: 20px;
     text-align: left;
     font-family: "Futura Regular", sans-serif;
-    font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: -20px;
+
   }
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-detail {
+    width: calc(25% - 10px); /* Should match .product-card width */
+    text-align: center;
+  }
+  
   
   .product-cards {
     display: flex;

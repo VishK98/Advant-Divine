@@ -29,16 +29,22 @@ const products = [
 ];
 
 const ProductGallery = () => {
-  return (
-    <div className="product-gallery">
-      <h2>YOU MAY ALSO LIKE</h2>
-      <div className="product-cards">
-        {products.map((product, index) => (
-          <div key={index} className="product-card">
-            <img src={product.imageSrc} alt={product.title} />
-            <p className="product-title">{product.title}</p>
-            <p className="product-price">{product.price}</p>
-          </div>
+    return (
+      <div className="product-gallery">
+        <h5 className='product-gallery-title'>YOU MAY ALSO LIKE</h5>
+        <div className="product-cards">
+          {products.map((product, index) => (
+            <div key={index} className="product-card">
+              <img src={product.imageSrc} alt={product.title} />
+            </div>
+          ))}
+        </div>
+        <div className="product-details">
+          {products.map((product, index) => (
+            <div key={index} className="product-detail">
+              <p className="product-title">{product.title}</p>
+              <p className="product-price">{product.price}</p>
+            </div>
         ))}
       </div>
     </div>
