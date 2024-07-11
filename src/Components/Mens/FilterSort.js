@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import './FilterSort.css'; // Create a CSS file for styling
-
+import './FilterSort.css'; 
 const FilterSort = () => {
   return (
     <div className="filter-header">
