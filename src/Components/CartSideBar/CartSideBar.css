@@ -1,0 +1,54 @@
+/* Sidebar */
+.w3-sidebar {
+    position: fixed;
+    top: 0;
+    background-color: #f0f0f0; /* Sidebar background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 250px; /* Adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    z-index: 1000; /* Ensure it overlays content */
+    transition: transform 0.3s ease, visibility 0s linear 0.3s;
+  }
+  
+  .w3-sidebar.open {
+    transform: translateX(0); /* Slide in from left or right */
+    visibility: visible;
+  }
+  
+  .w3-sidebar.w3-animate-left {
+    left: -250px; /* Start off-screen */
+  }
+  
+  .w3-sidebar.w3-animate-right {
+    right: -250px; /* Start off-screen */
+  }
+  
+  /* Sidebar content */
+  .w3-sidebar .w3-bar-item {
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    color: #333; /* Sidebar link text color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .w3-sidebar .w3-bar-item:hover {
+    background-color: #ddd; /* Sidebar link hover background color */
+  }
+  
+  /* Close button */
+  .w3-sidebar .w3-bar-item.close-btn {
+    color: #999; /* Close button text color */
+    cursor: pointer;
+    text-align: center;
+    background-color: #e7e7e7; /* Close button background color */
+    border: none;
+    outline: none;
+    padding: 16px;
+  }
+  
+  .w3-sidebar .w3-bar-item.close-btn:hover {
+    background-color: #ccc; /* Close button hover background color */
+  }
+  
