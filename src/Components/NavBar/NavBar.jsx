@@ -68,7 +68,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="col-md-8 col-6 text-center">
-          <img className="logo__image" src={logo} alt="Logo" />
+        <Link to="/">
+  <img className="logo__image" src={logo} alt="Logo" />
+</Link>
         </div>
         <div className="col-md-2 col-3">
           <div className="third-box d-flex justify-content-end align-items-center navbar__margin">

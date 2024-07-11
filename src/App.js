@@ -8,9 +8,10 @@ import Contact from "./Components/Contact/contact";
 import Search from "./Components/Search/Search";
 import Mens from "./Components/Mens/Mens";
 import ProductDetails from "./Components/ProductDetails/ProductDetails";
-
+import Cart from './Components/Cart/Cart';
 function App() {
   return (
+    
     <>
       <Router>
         {/* <Navbar/> */}
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/search" element={<Search />} />
           <Route exact path="/Mens" element={<Mens />} />
           <Route exact path="/product-details" element={<ProductDetails />} />
+          <Route exact path="/Cart" element={<Cart />} />
         </Routes>
         {/* <Footer /> */}
       </Router>
