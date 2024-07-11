@@ -8,7 +8,9 @@ import Contact from "./Components/Contact/contact";
 import Search from "./Components/Search/Search";
 import Mens from "./Components/Mens/Mens";
 import ProductDetails from "./Components/ProductDetails/ProductDetails";
-import Cart from './Components/Cart/Cart';
+import Signup from "./Components/Signup/Signup";
+import Login from "./Components/Login/Login";
+import CartSideBar from "./Components/CartSideBar/CartSideBar";
 function App() {
   return (
     
@@ -23,7 +25,9 @@ function App() {
           <Route exact path="/search" element={<Search />} />
           <Route exact path="/Mens" element={<Mens />} />
           <Route exact path="/product-details" element={<ProductDetails />} />
-          <Route exact path="/Cart" element={<Cart />} />
+          <Route exact path="/Cart" element={<CartSideBar />} />
+          <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/login" element={<Login />} />
         </Routes>
         {/* <Footer /> */}
       </Router>
