@@ -19,15 +19,16 @@ function App() {
         {/* <Navbar/> */}
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/service" element={<Service />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/search" element={<Search />} />
           <Route exact path="/Mens" element={<Mens />} />
           <Route exact path="/product-details" element={<ProductDetails />} />
-          <Route exact path="/Cart" element={<CartSideBar />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/login" element={<Login />} />
+          <Route exact path="/cart" element={<CartSideBar />} />
         </Routes>
         {/* <Footer /> */}
       </Router>
