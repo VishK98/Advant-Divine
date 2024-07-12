@@ -2,6 +2,7 @@
     padding: 20px;
     text-align: left;
     font-family: "Futura Regular", sans-serif;
+    color: black !important;
     font-weight: 700;
     margin-bottom: -20px;
 
@@ -59,7 +60,7 @@
   
   .product-price {
     font-size: 14px;
-    color: #666;
+    color: black !important;
     font-family: "Futura Regular", sans-serif;
 
   }
@@ -67,7 +68,7 @@
   .discover-more {
     font-size: 14px;
     font-family: "Futura Regular", sans-serif;
-    color: black;
+    color: black !important;
     letter-spacing: 0.4px;
     text-decoration: none;
     position: relative;

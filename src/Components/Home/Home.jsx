@@ -83,7 +83,7 @@ const men = [
     imgSrc: C2P2,
     title: "Men",
     amount: "Rs. 3000",
-    link: "#",
+    link: "/mens",
   },
   {
     imgSrc: C2P3,

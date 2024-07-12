@@ -15,7 +15,7 @@ const CartSideBar = ({ isOpen, toggleSidebar }) => {
     return (
         <div className={`cart-sidebar ${isOpen ? 'open' : ''}`}>
             <div className="cart-header">
-                <span className='cart-title'>Cart</span>
+                <span className='cart-title'>Shopping Cart</span>
                 <button className="close-btn" onClick={toggleSidebar}>X</button>
             </div>
             <div className="cart-content">
