@@ -36,6 +36,9 @@
     .add2cart-btn:hover::before {
         width: 100%;
     }
+    .card-amount {
+       color: #000 !important;
+    }
 
 @media only screen and (max-width: 768px) {
   .add2cart-btn {

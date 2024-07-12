@@ -13,6 +13,7 @@
   .card-title1 {
     font-family: "Futura Regular", sans-serif;
     text-align: center;
+    color: #000 !important;
     font-size: 15px;
     margin-top: 10px;
   }
